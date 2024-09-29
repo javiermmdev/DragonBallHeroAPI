@@ -143,7 +143,7 @@ Para garantizar la confiabilidad de la capa de red y la gestión del estado de l
 - **Pruebas Unitarias**: Las pruebas verifican el flujo de inicio de sesión, la validación del token y la obtención de datos de personajes, asegurando que la aplicación maneje correctamente los casos de éxito y error.
 - **Casos de Borde**: Las pruebas incluyen el manejo de tokens faltantes, URLs malformadas y fallos de red.
 
-## Contribuyendo
+## Contribuir
 
 1. Haz un fork del repositorio.
 2. Crea una rama de características: `git checkout -b feature-branch`.
