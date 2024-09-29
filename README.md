@@ -68,7 +68,7 @@ The project follows the Model-View-Controller (MVC) design pattern, structured a
 ### 1. **Login**:
 Upon launching the app, the user is prompted with a login screen. If valid credentials are entered, the app retrieves a JWT token and stores it securely.
 
-![Login](https://i.imgur.com/svMaGRH.png)
+![Login](https://i.imgur.com/BIee009.png)
 
 If the login fails, an error message is displayed.
 
