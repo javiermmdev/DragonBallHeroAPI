@@ -4,7 +4,7 @@
 KCDragonBall es una aplicación iOS creada en Swift que permite a los usuarios explorar los personajes de Dragon Ball y sus transformaciones. La aplicación usa `UICollectionView` para mostrar personajes, integra JWT para la autenticación de inicio de sesión, y se comunica con una API remota para obtener datos de personajes y transformaciones.
 
 Este README también está disponible en:
-- [English](../../readme.md)
+- [English](README.md)
 
 ## Características
 - Inicio de sesión de usuarios con autenticación basada en JWT.
