@@ -68,35 +68,35 @@ The project follows the Model-View-Controller (MVC) design pattern, structured a
 ### 1. **Login**:
 Upon launching the app, the user is prompted with a login screen. If valid credentials are entered, the app retrieves a JWT token and stores it securely.
 
-![Login](https://i.imgur.com/BIee009.png)
+[![Login](https://i.imgur.com/oyKDTIa.png)](https://i.imgur.com/3ScrPfC.png)
 
 If the login fails, an error message is displayed.
 
-![Login Failed](https://i.imgur.com/XNy3Fi5.png)
+[![Login Failed](https://i.imgur.com/GrUr2nM.png)](https://i.imgur.com/XNy3Fi5.png)
 
 ### 2. **Characters List**:
 After logging in, the app displays a scrollable list of Dragon Ball characters, each with an image and description.
 
-![Hero Page](https://i.imgur.com/wjtnxqq.png)
+[![Hero Page](https://i.imgur.com/kLLHZoU.png)](https://i.imgur.com/wjtnxqq.png)
 
 ### 3. **Character Detail**:
 Clicking on a character opens a detail screen that includes their description and, if applicable, their transformations.
 
 #### Hero with No Transformations:
-![Hero with no transformations](https://i.imgur.com/EmoDkqW.png)
+[![Hero with no transformations](https://i.imgur.com/GvyQ2iy.png)](https://i.imgur.com/EmoDkqW.png)
 
 #### Hero with Transformations:
-![Hero with transformations](https://i.imgur.com/LlN1iAv.png)
+[![Hero with transformations](https://i.imgur.com/cEm8l0H.png)](https://i.imgur.com/LlN1iAv.png)
 
 ### 4. **Transformations**:
 If the selected hero has transformations, the user can view them on a separate screen.
 
-![Transformations](https://i.imgur.com/FY7pIT6.png)
+[![Transformations](https://i.imgur.com/yUsDLti.png)](https://i.imgur.com/FY7pIT6.png)
 
 ### 5. **Transformation Details**:
 Selecting a transformation from the list allows users to view more details about it.
 
-![Transformation Details](https://i.imgur.com/xMW6TCU.png)
+[![Transformation Details](https://i.imgur.com/SgRfdrE.png)](https://i.imgur.com/xMW6TCU.png)
 
 ### 6. **Logout**:
 Users can log out by clicking the logout button on the main character screen.
