@@ -1,3 +1,4 @@
+
 # DragonBallHeroAPI
 
 KCDragonBall is an iOS app built in Swift that allows users to explore Dragon Ball characters and their transformations. The app uses `UICollectionView` to display characters, integrates `JWT` for login authentication, and communicates with a remote API to fetch character data and transformations.
@@ -64,13 +65,41 @@ The project follows the Model-View-Controller (MVC) design pattern, structured a
 
 ## Usage
 
-1. **Login**: Upon launching the app, the user is prompted with a login screen. If valid credentials are entered, the app retrieves a JWT token and stores it securely.
+### 1. **Login**:
+Upon launching the app, the user is prompted with a login screen. If valid credentials are entered, the app retrieves a JWT token and stores it securely.
 
-2. **Characters List**: After logging in, the app displays a scrollable list of Dragon Ball characters, each with an image and description.
+![Login](https://i.imgur.com/3ScrPfC.png)
 
-3. **Character Detail**: Clicking on a character opens a detail screen that includes their description and, if applicable, their transformations.
+If the login fails, an error message is displayed.
 
-4. **Logout**: Users can log out by clicking the logout button on the main character screen.
+![Login Failed](https://i.imgur.com/XNy3Fi5.png)
+
+### 2. **Characters List**:
+After logging in, the app displays a scrollable list of Dragon Ball characters, each with an image and description.
+
+![Hero Page](https://i.imgur.com/wjtnxqq.png)
+
+### 3. **Character Detail**:
+Clicking on a character opens a detail screen that includes their description and, if applicable, their transformations.
+
+#### Hero with No Transformations:
+![Hero with no transformations](https://i.imgur.com/EmoDkqW.png)
+
+#### Hero with Transformations:
+![Hero with transformations](https://i.imgur.com/LlN1iAv.png)
+
+### 4. **Transformations**:
+If the selected hero has transformations, the user can view them on a separate screen.
+
+![Transformations](https://i.imgur.com/FY7pIT6.png)
+
+### 5. **Transformation Details**:
+Selecting a transformation from the list allows users to view more details about it.
+
+![Transformation Details](https://i.imgur.com/xMW6TCU.png)
+
+### 6. **Logout**:
+Users can log out by clicking the logout button on the main character screen.
 
 ## Running Tests
 
