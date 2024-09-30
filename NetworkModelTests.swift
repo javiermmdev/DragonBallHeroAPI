@@ -47,7 +47,7 @@ final class NetworkModelTests: XCTestCase {
         sut.getHeroes { result in
             receivedResult = result
         }
-
+        
         // Then
         XCTAssertEqual(someResult, receivedResult)
         XCTAssert(client.didCallRequest)
