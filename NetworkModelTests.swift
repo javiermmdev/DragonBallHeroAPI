@@ -35,7 +35,6 @@ final class NetworkModelTests: XCTestCase {
         XCTAssertEqual(someResult, receivedResult)
         XCTAssert(client.didCallRequest)
         XCTAssertEqual(client.receivedRequest?.url, expectedRequest.url)
-        print("Hago esto")
     }
     
     func test_getHeros_failure() {
@@ -52,6 +51,5 @@ final class NetworkModelTests: XCTestCase {
         // Then
         XCTAssertEqual(someResult, receivedResult)
         XCTAssert(client.didCallRequest)
-        print("Hago esto 2")
     }
 }
