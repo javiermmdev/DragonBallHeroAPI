@@ -19,8 +19,6 @@
 		3B1F74322CA8296F007DB51D /* TransformationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F742F2CA8296F007DB51D /* TransformationCollectionViewCell.swift */; };
 		3B1F74352CA82ED5007DB51D /* TransformationDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1F74342CA82ED5007DB51D /* TransformationDetailsViewController.xib */; };
 		3B1F74362CA82ED5007DB51D /* TransformationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F74332CA82ED5007DB51D /* TransformationDetailsViewController.swift */; };
-		3B1F743C2CA854D3007DB51D /* NetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F743B2CA854D3007DB51D /* NetworkModelTests.swift */; };
-		3B1F743E2CA854E5007DB51D /* APIClientProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F743D2CA854E5007DB51D /* APIClientProtocolMock.swift */; };
 		3B1F743F2CA85D83007DB51D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0A2CA1D8FE00D324BC /* APIClient.swift */; };
 		3B1F74402CA85D84007DB51D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0A2CA1D8FE00D324BC /* APIClient.swift */; };
 		3B1F74422CA85D8A007DB51D /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0C2CA1DF0800D324BC /* NetworkModel.swift */; };
@@ -37,9 +35,6 @@
 		572E8CDE2CA1D77700D324BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8CDD2CA1D77700D324BC /* ViewController.swift */; };
 		572E8CE32CA1D77900D324BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572E8CE22CA1D77900D324BC /* Assets.xcassets */; };
 		572E8CE62CA1D77900D324BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 572E8CE52CA1D77900D324BC /* Base */; };
-		572E8CF12CA1D77900D324BC /* KCDragonBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8CF02CA1D77900D324BC /* KCDragonBallTests.swift */; };
-		572E8CFB2CA1D77900D324BC /* KCDragonBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8CFA2CA1D77900D324BC /* KCDragonBallUITests.swift */; };
-		572E8CFD2CA1D77900D324BC /* KCDragonBallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8CFC2CA1D77900D324BC /* KCDragonBallUITestsLaunchTests.swift */; };
 		572E8D0B2CA1D8FE00D324BC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0A2CA1D8FE00D324BC /* APIClient.swift */; };
 		572E8D0D2CA1DF0800D324BC /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0C2CA1DF0800D324BC /* NetworkModel.swift */; };
 		572E8D0F2CA1E5BA00D324BC /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E8D0E2CA1E5BA00D324BC /* Hero.swift */; };
@@ -76,8 +71,8 @@
 		3B1F74302CA8296F007DB51D /* TransformationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationCollectionViewCell.xib; sourceTree = "<group>"; };
 		3B1F74332CA82ED5007DB51D /* TransformationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationDetailsViewController.swift; sourceTree = "<group>"; };
 		3B1F74342CA82ED5007DB51D /* TransformationDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationDetailsViewController.xib; sourceTree = "<group>"; };
-		3B1F743B2CA854D3007DB51D /* NetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
-		3B1F743D2CA854E5007DB51D /* APIClientProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocolMock.swift; sourceTree = "<group>"; };
+		3B6289DF2CAAD917008392E2 /* APIClientProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocolMock.swift; sourceTree = "<group>"; };
+		3B6289E02CAAD97F008392E2 /* NetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
 		3BA97A572CA48FBC0048103B /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		3BA97A582CA48FBC0048103B /* CharacterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterViewController.xib; sourceTree = "<group>"; };
 		3BA97A602CA49E5A0048103B /* UIImageView+Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Remote.swift"; sourceTree = "<group>"; };
@@ -89,10 +84,7 @@
 		572E8CE52CA1D77900D324BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572E8CE72CA1D77900D324BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572E8CEC2CA1D77900D324BC /* KCDragonBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCDragonBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		572E8CF02CA1D77900D324BC /* KCDragonBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCDragonBallTests.swift; sourceTree = "<group>"; };
 		572E8CF62CA1D77900D324BC /* KCDragonBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCDragonBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		572E8CFA2CA1D77900D324BC /* KCDragonBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCDragonBallUITests.swift; sourceTree = "<group>"; };
-		572E8CFC2CA1D77900D324BC /* KCDragonBallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCDragonBallUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		572E8D0A2CA1D8FE00D324BC /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		572E8D0C2CA1DF0800D324BC /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		572E8D0E2CA1E5BA00D324BC /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
@@ -176,6 +168,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3B6289DE2CAAD905008392E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B6289DF2CAAD917008392E2 /* APIClientProtocolMock.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3BA97A4F2CA484A00048103B /* Hero Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,7 +227,7 @@
 			children = (
 				572E8CD82CA1D77700D324BC /* KCDragonBall */,
 				572E8CEF2CA1D77900D324BC /* KCDragonBallTests */,
-				572E8CF92CA1D77900D324BC /* KCDragonBallUITests */,
+				3B6289E02CAAD97F008392E2 /* NetworkModelTests.swift */,
 				572E8CD72CA1D77700D324BC /* Products */,
 				3B1F74382CA8388E007DB51D /* Frameworks */,
 			);
@@ -264,20 +264,9 @@
 		572E8CEF2CA1D77900D324BC /* KCDragonBallTests */ = {
 			isa = PBXGroup;
 			children = (
-				572E8CF02CA1D77900D324BC /* KCDragonBallTests.swift */,
+				3B6289DE2CAAD905008392E2 /* Helpers */,
 			);
 			path = KCDragonBallTests;
-			sourceTree = "<group>";
-		};
-		572E8CF92CA1D77900D324BC /* KCDragonBallUITests */ = {
-			isa = PBXGroup;
-			children = (
-				572E8CFA2CA1D77900D324BC /* KCDragonBallUITests.swift */,
-				572E8CFC2CA1D77900D324BC /* KCDragonBallUITestsLaunchTests.swift */,
-				3B1F743B2CA854D3007DB51D /* NetworkModelTests.swift */,
-				3B1F743D2CA854E5007DB51D /* APIClientProtocolMock.swift */,
-			);
-			path = KCDragonBallUITests;
 			sourceTree = "<group>";
 		};
 		572E8D092CA1D8DA00D324BC /* Models */ = {
@@ -455,7 +444,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1F74422CA85D8A007DB51D /* NetworkModel.swift in Sources */,
-				572E8CF12CA1D77900D324BC /* KCDragonBallTests.swift in Sources */,
 				3B1F743F2CA85D83007DB51D /* APIClient.swift in Sources */,
 				3B1F74442CA85D93007DB51D /* Hero.swift in Sources */,
 				3B1F74462CA85D96007DB51D /* Transformation.swift in Sources */,
@@ -467,13 +455,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1F74432CA85D8B007DB51D /* NetworkModel.swift in Sources */,
-				572E8CFD2CA1D77900D324BC /* KCDragonBallUITestsLaunchTests.swift in Sources */,
-				3B1F743C2CA854D3007DB51D /* NetworkModelTests.swift in Sources */,
-				572E8CFB2CA1D77900D324BC /* KCDragonBallUITests.swift in Sources */,
 				3B1F74452CA85D93007DB51D /* Hero.swift in Sources */,
 				3B1F74402CA85D84007DB51D /* APIClient.swift in Sources */,
 				3B1F74472CA85D96007DB51D /* Transformation.swift in Sources */,
-				3B1F743E2CA854E5007DB51D /* APIClientProtocolMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
